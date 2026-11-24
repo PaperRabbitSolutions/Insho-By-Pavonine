@@ -1,0 +1,70 @@
+
+services:
+  api:
+    build:
+      context: ./insho-backend
+      dockerfile: Dockerfile
+    image: insho-backend:dev
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./insho-backend/.env.docker
+      - ./.env.storage
+    environment:
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  worker:
+    build:
+      context: ./insho-backend
+      dockerfile: Dockerfile
+    image: insho-backend:dev
+    command: celery -A app.workers.celery_app:celery_app worker --loglevel=info
+    env_file:
+      - ./insho-backend/.env.docker
+      - ./.env.storage
+    environment:
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "127.0.0.1:6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+  rustfs:
+    image: rustfs/rustfs:latest
+    ports:
+      - "127.0.0.1:9000:9000"
+      - "127.0.0.1:9001:9001"
+    env_file:
+      - .env.storage
+    environment:
+      RUSTFS_ADDRESS: ":9000"
+      RUSTFS_CONSOLE_ADDRESS: ":9001"
+      RUSTFS_CONSOLE_ENABLE: "true"
+    volumes:
+      - rustfs_data:/data
+    command: /data
+    restart: unless-stopped
+
+volumes:
+  redis_data:
+  rustfs_data:

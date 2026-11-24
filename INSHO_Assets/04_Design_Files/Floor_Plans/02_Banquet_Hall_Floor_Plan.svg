@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850"><rect width="1200" height="850" fill="#f6f7f9"/><text x="55" y="55" font-family="Arial" font-size="30" font-weight="bold" fill="#1d2738">BANQUET / WEDDING HALL FLOOR PLAN</text><text x="55" y="90" font-family="Arial" font-size="16" fill="#697385">Approximate layout interpreted from Video 2 · Diagram not to scale</text>
+<rect x="100" y="130" width="1000" height="650" fill="#fff" stroke="#263246" stroke-width="6"/><rect x="380" y="160" width="440" height="120" fill="#eee4dc" stroke="#9a8274" stroke-width="3"/><text x="600" y="225" text-anchor="middle" font-family="Arial" font-size="25" fill="#654b42">DECOR / FOCAL STAGE</text>
+<rect x="510" y="280" width="180" height="80" fill="#f2f0e8" stroke="#998b6c" stroke-width="3"/><text x="600" y="330" text-anchor="middle" font-family="Arial" font-size="20" fill="#675d47">Couple seating</text>
+<rect x="520" y="380" width="160" height="350" fill="#f5f1e8" stroke="#b7aa92" stroke-dasharray="8 8"/><text x="600" y="550" text-anchor="middle" font-family="Arial" font-size="20" fill="#8a7c5e" transform="rotate(-90 600 550)">CENTRAL AISLE</text>
+<g fill="#8c3440" stroke="#54202b" stroke-width="2">
+<rect x="240" y="410" width="48" height="32" rx="6"/>
+<rect x="760" y="410" width="48" height="32" rx="6"/>
+<rect x="305" y="410" width="48" height="32" rx="6"/>
+<rect x="825" y="410" width="48" height="32" rx="6"/>
+<rect x="370" y="410" width="48" height="32" rx="6"/>
+<rect x="890" y="410" width="48" height="32" rx="6"/>
+<rect x="435" y="410" width="48" height="32" rx="6"/>
+<rect x="955" y="410" width="48" height="32" rx="6"/>
+<rect x="240" y="452" width="48" height="32" rx="6"/>
+<rect x="760" y="452" width="48" height="32" rx="6"/>
+<rect x="305" y="452" width="48" height="32" rx="6"/>
+<rect x="825" y="452" width="48" height="32" rx="6"/>
+<rect x="370" y="452" width="48" height="32" rx="6"/>
+<rect x="890" y="452" width="48" height="32" rx="6"/>
+<rect x="435" y="452" width="48" height="32" rx="6"/>
+<rect x="955" y="452" width="48" height="32" rx="6"/>
+<rect x="240" y="494" width="48" height="32" rx="6"/>
+<rect x="760" y="494" width="48" height="32" rx="6"/>
+<rect x="305" y="494" width="48" height="32" rx="6"/>
+<rect x="825" y="494" width="48" height="32" rx="6"/>
+<rect x="370" y="494" width="48" height="32" rx="6"/>
+<rect x="890" y="494" width="48" height="32" rx="6"/>
+<rect x="435" y="494" width="48" height="32" rx="6"/>
+<rect x="955" y="494" width="48" height="32" rx="6"/>
+<rect x="240" y="536" width="48" height="32" rx="6"/>
+<rect x="760" y="536" width="48" height="32" rx="6"/>
+<rect x="305" y="536" width="48" height="32" rx="6"/>
+<rect x="825" y="536" width="48" height="32" rx="6"/>
+<rect x="370" y="536" width="48" height="32" rx="6"/>
+<rect x="890" y="536" width="48" height="32" rx="6"/>
+<rect x="435" y="536" width="48" height="32" rx="6"/>
+<rect x="955" y="536" width="48" height="32" rx="6"/>
+<rect x="240" y="578" width="48" height="32" rx="6"/>
+<rect x="760" y="578" width="48" height="32" rx="6"/>
+<rect x="305" y="578" width="48" height="32" rx="6"/>
+<rect x="825" y="578" width="48" height="32" rx="6"/>
+<rect x="370" y="578" width="48" height="32" rx="6"/>
+<rect x="890" y="578" width="48" height="32" rx="6"/>
+<rect x="435" y="578" width="48" height="32" rx="6"/>
+<rect x="955" y="578" width="48" height="32" rx="6"/>
+<rect x="240" y="620" width="48" height="32" rx="6"/>
+<rect x="760" y="620" width="48" height="32" rx="6"/>
+<rect x="305" y="620" width="48" height="32" rx="6"/>
+<rect x="825" y="620" width="48" height="32" rx="6"/>
+<rect x="370" y="620" width="48" height="32" rx="6"/>
+<rect x="890" y="620" width="48" height="32" rx="6"/>
+<rect x="435" y="620" width="48" height="32" rx="6"/>
+<rect x="955" y="620" width="48" height="32" rx="6"/>
+<rect x="240" y="662" width="48" height="32" rx="6"/>
+<rect x="760" y="662" width="48" height="32" rx="6"/>
+<rect x="305" y="662" width="48" height="32" rx="6"/>
+<rect x="825" y="662" width="48" height="32" rx="6"/>
+<rect x="370" y="662" width="48" height="32" rx="6"/>
+<rect x="890" y="662" width="48" height="32" rx="6"/>
+<rect x="435" y="662" width="48" height="32" rx="6"/>
+<rect x="955" y="662" width="48" height="32" rx="6"/>
+</g><text x="600" y="815" text-anchor="middle" font-family="Arial" font-size="16" fill="#697385">Seating blocks face focal stage · aisle shown for circulation concept</text></svg>

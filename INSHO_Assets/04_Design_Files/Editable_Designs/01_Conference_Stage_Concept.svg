@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+<rect width="1200" height="800" fill="#f5f7fb"/><text x="60" y="55" font-family="Arial" font-size="32" font-weight="bold" fill="#18243b">CONFERENCE STAGE CONCEPT</text><text x="60" y="90" font-family="Arial" font-size="17" fill="#5c6679">Visual concept derived from Video 1 · Not to scale</text>
+<rect x="100" y="150" width="1000" height="520" rx="18" fill="#202631"/><rect x="150" y="190" width="900" height="160" fill="#303a4c" stroke="#8490a4" stroke-width="2"/><text x="600" y="270" text-anchor="middle" font-family="Arial" font-size="28" fill="#e8eef9">PRESENTATION SCREEN</text>
+<rect x="150" y="375" width="900" height="230" fill="#d9dce2"/><rect x="420" y="560" width="360" height="32" fill="#a5aab4"/>
+<g fill="#c6cbd2" stroke="#7d8794" stroke-width="3"><rect x="225" y="435" width="150" height="95" rx="20"/><rect x="525" y="435" width="150" height="95" rx="20"/><rect x="825" y="435" width="150" height="95" rx="20"/></g>
+<g fill="#fff" stroke="#7d8794" stroke-width="3"><ellipse cx="300" cy="570" rx="60" ry="20"/><ellipse cx="600" cy="570" rx="60" ry="20"/><ellipse cx="900" cy="570" rx="60" ry="20"/></g>
+<circle cx="600" cy="410" r="20" fill="#e0b15b"/><text x="600" y="415" text-anchor="middle" font-family="Arial" font-size="12" fill="#33250b">Speaker</text>
+<text x="600" y="720" text-anchor="middle" font-family="Arial" font-size="18" fill="#263247">Audience viewpoint · panel/lounge seating · screen backdrop</text></svg>

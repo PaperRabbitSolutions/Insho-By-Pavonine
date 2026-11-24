@@ -1,0 +1,43 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+venv-*/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Code quality tools
+.mypy_cache/
+.ruff_cache/
+
+# IDE and operating system
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Generated assets and local storage
+storage/
+uploads/
+
+# Temporary files
+*.tmp
+*.bak
+
+# INSHO large media and binary test fixtures
+INSHO_Assets/02_Videos/
+INSHO_Assets/05_Large_Files/

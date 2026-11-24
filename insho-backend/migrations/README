@@ -1,0 +1,5 @@
+INSHO uses one PostgreSQL Alembic revision chain.
+
+The Phase 11 chain is 73fd6a4ce211, 921d7c306abe, 67e52ccf940a, d914b27f803c, and e35f18c42a79. The last revision enforces presentation event scope, exact snapshot review bindings, and immutable checkpoint identity. It validates existing rows before committing the upgrade. Downgrading to d914b27f803c removes those guards and restores the former presentation event foreign key while preserving existing records.
+
+Use a disposable database for verification. Run alembic heads, alembic upgrade head, and alembic check. Run the seeded migration test in tests/test_phase11_integration.py to exercise rollback, a rejected upgrade on deliberately inconsistent fixture data, and successful re-upgrade. Alembic reads DATABASE_URL from the backend environment.
